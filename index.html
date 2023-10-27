@@ -1,0 +1,30 @@
+<html>
+    <body>
+        <h1>Hello from index.html</h1>
+        <!-- important for test -->
+        <h3>GET method</h3>
+        <!-- action tell the form what you want it to do -->
+        <!-- uses http get method to send info to the server -->
+        <form action="/name" method="GET">
+            <label>First Name: </label>
+            <input type="text" name="fname" value="Mary"><br>
+
+            <label>Surname: </label>
+            <input type="text" name="lname" value="McDonnell"><br>
+
+            <input type="submit" value="submit">
+        </form>
+
+        <h3>POST method</h3>
+        <!-- this one has no data as part of the url -->
+        <form action="/name" method="POST">
+            <label>First Name: </label>
+            <input type="text" name="fname" value="Mary"><br>
+
+            <label>Surname: </label>
+            <input type="text" name="lname" value="McDonnell"><br>
+
+            <input type="submit" value="submit">
+        </form>
+    </body>
+</html>
